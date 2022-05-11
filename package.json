@@ -1,0 +1,20 @@
+{
+  "name": "alura-next-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/michael-lourenco/alura-next-js.git",
+  "author": "Michael Lourenco <michael.lourenco@pixter.com.br>",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+
+}
