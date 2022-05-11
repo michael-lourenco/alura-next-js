@@ -1,4 +1,5 @@
 import Link from "../src/components/Link"
+
 function Faq() {
   return (
     <>
