@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from "../src/components/Link"
 
 // console.log('Em modo dev ambos sempre rodam a cada acesso')
@@ -21,19 +22,22 @@ export async function getStaticProps() {
 export default function Faq({ faq }) {
   return (
     <>
-    <div>Faq!</div>
-    <Link href="/" > ir para home</Link>
-    <ul>
-      {faq.map(item => (
-        <li key={item.question}>
-          <article>
-            <h3>{item.question}</h3>
-            <p>{item.answer}</p>
-          </article>
-        </li>
-      ))}
+      <Head>
+        <title>Faq - Alura Cases Campanha</title>
+      </Head>
+      <div>Faq!</div>
+      <Link href="/" > ir para home</Link>
+      <ul>
+        {faq.map(item => (
+          <li key={item.question}>
+            <article>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </article>
+          </li>
+        ))}
 
-    </ul>
+      </ul>
     </>
   )
 }
