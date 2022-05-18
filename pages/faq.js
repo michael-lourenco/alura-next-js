@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Link from "../src/components/Link"
+import Head from 'next/head';
+import Link from "../src/components/Link";
 
 // console.log('Em modo dev ambos sempre rodam a cada acesso')
 

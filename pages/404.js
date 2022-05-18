@@ -1,4 +1,4 @@
-import Link from "../src/components/Link"
+import Link from "../src/components/Link";
 
 function Page404() {
   return (
@@ -9,4 +9,4 @@ function Page404() {
   )
 }
 
-export default Page404
+export default Page404;

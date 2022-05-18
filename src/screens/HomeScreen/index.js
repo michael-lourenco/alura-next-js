@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Footer from '../../components/patterns/Footer'
-import Link from '../../components/Link'
+import Head from 'next/head';
+import Footer from '../../components/patterns/Footer';
+import Link from '../../components/Link';
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
 const LOGO_ALURA_URL = 'http://localhost:3000/alura-logo.svg';
-const SIDE_IMAGE_URL = 'http://localhost:3000/alura-cases.png'
+const SIDE_IMAGE_URL = 'http://localhost:3000/alura-cases.png';
 
 function SideImage() {
   return (
